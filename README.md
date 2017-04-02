@@ -1,4 +1,4 @@
-# Уроки по Angular 2
+# Уроки по Angular
 
 > [Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)
