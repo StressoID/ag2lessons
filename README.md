@@ -20,5 +20,5 @@
 > [NPM](https://www.npmjs.com/)  
 > [Angular CLI глобально для системы](https://www.youtube.com/watch?v=cKod7WX0qUc&index=1&list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)
 
-#Установка приложени
+# Установка приложения
 После клонирования репозитория запустите в корне проекта команду ``npm install``
