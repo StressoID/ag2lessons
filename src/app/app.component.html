@@ -11,5 +11,14 @@
   <span>{{title}}</span>
 </md-toolbar>
 <div id="content">
-  <md-card>content will be here</md-card>
+  <form [formGroup]="testForm">
+    <app-dynamic-block
+      *ngFor="let block of testModel.blocks"
+      [block]="testForm.controls[block.code]"
+      [title]="block.title"
+      [code]="block.code"
+      [questions]="block.questions">
+    </app-dynamic-block>
+    <button (click)="check(testForm)" md-raised-button color="primary">Submit</button>
+  </form>
 </div>

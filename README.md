@@ -1,11 +1,10 @@
+# Реактивные формы
+В этом уроке рассмотрим построение динамических реактивных форм.
+
 # Уроки по Angular
 
-> [Видеоурок](https://www.youtube.com/watch?v=d3o-hDf1188)  
-[Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
+> [Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)  
-[Material](https://material.angular.io)
-
-Знакомство с официальным модулем Material дизайна. Его установка и настройка. Создание базовых элементов интерфейса приложения.
 
 # Наименования веток
 Ветки именуются по правилу <ТЕМА>-<СУТЬ УРОКА>.  

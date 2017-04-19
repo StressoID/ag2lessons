@@ -1,0 +1,12 @@
+<md-card [formGroup]="block">
+  <div>
+    <div>{{title}}</div>
+  </div>
+  <div [ngClass]="{
+    'disabled-form': disabled
+   }">
+    <div *ngFor="let question of questions" class="form-row">
+      <df-question [disabled]="disabled" [question]="question" [form]="block"></df-question>
+    </div>
+  </div>
+</md-card>

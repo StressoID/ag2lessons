@@ -1,0 +1,10 @@
+<div>
+  <form [formGroup]="form">
+    <app-dynamic-block
+      *ngFor="let block of formModel.blocks"
+      [block]="form.controls[block.code]"
+      [title]="block.title"
+      [questions]="block.questions">
+    </app-dynamic-block>
+  </form>
+</div>

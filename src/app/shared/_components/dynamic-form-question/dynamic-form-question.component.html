@@ -1,0 +1,14 @@
+<div [formGroup]="form">
+    <!-- Кейс на типы question -->
+    <ng-container [ngSwitch]="question.controlType">
+        <div *ngSwitchCase="'textbox'">
+          <md-input-container>
+            <input mdInput
+                  [formControlName]="question.key" [id]="question.key" [type]="question.type"
+                  [max]="question.max" [min]="question.min" [placeholder]="question.label">
+          </md-input-container>
+          <div *ngIf="form.controls[question.key].invalid"
+                class="help-block">{{question.validationMessage}}</div>
+        </div>
+    </ng-container>
+</div>
