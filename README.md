@@ -5,7 +5,7 @@
 
 > [Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)  
-
+[Динамические реактивные формы](https://angular.io/docs/ts/latest/cookbook/dynamic-form.html)
 # Наименования веток
 Ветки именуются по правилу <ТЕМА>-<СУТЬ УРОКА>.  
 
