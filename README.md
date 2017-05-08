@@ -4,7 +4,7 @@
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)  
 [Material](https://material.angular.io)
 
-Знакомство с официальным модулем Material дизайна. Его установка и настройка. Создание базовых элементов интерфейса приложения.
+Репозиторий уроков по Angular на канале [CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ).
 
 # Наименования веток
 Ветки именуются по правилу <ТЕМА>-<СУТЬ УРОКА>.  
