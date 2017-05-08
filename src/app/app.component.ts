@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Уроки по Angular 2!';
+  public menuItems: Array<Object> = [
+    {
+      icon: 'dialpad',
+      title: 'Итем 1'
+    },
+    {
+      icon: 'voicemail',
+      title: 'Итем 2'
+    },
+    {
+      icon: 'notifications_off',
+      title: 'Итем 3'
+    },
+  ];
 }

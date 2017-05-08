@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar color="primary">
+  <button md-icon-button [mdMenuTriggerFor]="menu">
+    <md-icon>more_vert</md-icon>
+  </button>
+  <md-menu #menu="mdMenu">
+    <button md-menu-item *ngFor="let item of menuItems">
+      <md-icon>{{item.icon}}</md-icon>
+      <span>{{item.title}}</span>
+    </button>
+  </md-menu>
+  <span>{{title}}</span>
+</md-toolbar>
+<div id="content">
+  <md-card>content will be here</md-card>
+</div>
