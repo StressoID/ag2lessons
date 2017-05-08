@@ -2,19 +2,13 @@
 
 [Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)  
+[Angular](https://angular.io)
+[CLI](https://cli.angular.io)
 [Material](https://material.angular.io)
 
-Знакомство с официальным модулем Material дизайна. Его установка и настройка. Создание базовых элементов интерфейса приложения.
+Обновление до 4 версии Angular и до последнией версии Material Module.
 
-# Наименования веток
-Ветки именуются по правилу <ТЕМА>-<СУТЬ УРОКА>.  
-
-Например:
-> ``material-start``  
-> ``component-menu``  
-> ``service-auth``
-
-# Зависимости
+# Зависимостиs
 Для успешного запуска приложения вам понадобится:
 > [NodeJS stable version](http://nodejs.org)  
 > [NPM](https://www.npmjs.com/)  
