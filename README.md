@@ -2,6 +2,8 @@
 
 [Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)  
+[Angular](https://angular.io)
+[CLI](https://cli.angular.io)
 [Material](https://material.angular.io)
 
 Репозиторий уроков по Angular на канале [CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ).
