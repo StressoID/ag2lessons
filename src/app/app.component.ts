@@ -10,15 +10,8 @@ export class AppComponent {
   public menuItems: Array<Object> = [
     {
       icon: 'dialpad',
-      title: 'Итем 1'
-    },
-    {
-      icon: 'voicemail',
-      title: 'Итем 2'
-    },
-    {
-      icon: 'notifications_off',
-      title: 'Итем 3'
+      title: 'Лекции',
+      route: '/lectures'
     },
   ];
 }

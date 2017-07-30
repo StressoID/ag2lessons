@@ -3,10 +3,10 @@
 [Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)  
 [Angular](https://angular.io)
-[CLI](https://cli.angular.io)
-[Material](https://material.angular.io)
+[CLI](https://cli.angular.io)   
+[Routing](https://angular.io/guide/router)
 
-Репозиторий уроков по Angular на канале [CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ).
+Знакомство с роутингом приложения
 
 # Наименования веток
 Ветки именуются по правилу <ТЕМА>-<СУТЬ УРОКА>.  
