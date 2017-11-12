@@ -4,10 +4,10 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {MdButtonModule, MdCardModule, MdIconModule, MdMenuModule, MdToolbarModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { MatButtonModule, MatCardModule, MatIconModule, MatMenuModule, MatToolbarModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -21,11 +21,11 @@ import { AppRoutingModule } from './app-routing.module';
     RouterModule,
     AppRoutingModule,
     // LettersModule, убрано для LazyLoading модуля
-    MdToolbarModule,
-    MdCardModule,
-    MdMenuModule,
-    MdIconModule,
-    MdButtonModule
+    MatToolbarModule,
+    MatCardModule,
+    MatMenuModule,
+    MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

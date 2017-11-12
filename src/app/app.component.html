@@ -1,15 +1,15 @@
-<md-toolbar color="primary">
-  <button md-icon-button [mdMenuTriggerFor]="menu">
-    <md-icon>more_vert</md-icon>
+<mat-toolbar color="primary">
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>more_vert</mat-icon>
   </button>
-  <md-menu #menu="mdMenu">
-    <a md-menu-item *ngFor="let item of menuItems" [routerLink]="item.route">
-      <md-icon>{{item.icon}}</md-icon>
+  <mat-menu #menu="matMenu">
+    <a mat-menu-item *ngFor="let item of menuItems" [routerLink]="item.route">
+      <mat-icon>{{item.icon}}</mat-icon>
       <span>{{item.title}}</span>
     </a>
-  </md-menu>
+  </mat-menu>
   <span>{{title}}</span>
-</md-toolbar>
+</mat-toolbar>
 <div id="content">
   <router-outlet></router-outlet>
 </div>
