@@ -3,10 +3,10 @@
 [Канал CodeDojo](https://www.youtube.com/channel/UCY10FZglXJ8RL3xB04VpykQ)  
 [Плейлист уроков](https://www.youtube.com/playlist?list=PLqHlAwsJRxANhhHlAlazVrbX69UMJ9Bcu)  
 [Angular](https://angular.io)
-[CLI](https://cli.angular.io)   
-[Routing](https://angular.io/guide/router)
+[CLI](https://cli.angular.io)
+[MatDialog](https://material.angular.io/components/dialog/overview)
 
-Знакомство с роутингом приложения
+Учимся работать с MatDialog 
 
 # Наименования веток
 Ветки именуются по правилу <ТЕМА>-<СУТЬ УРОКА>.  
