@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material';
 import { TestComponent } from './test/test.component';
+import {FormControl, FormGroup} from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -17,9 +18,20 @@ export class AppComponent {
     },
   ];
 
-  constructor(public dialog: MatDialog) {}
+  public authForm: FormGroup;
+
+  constructor(public dialog: MatDialog) {
+    this.authForm = new FormGroup({
+      login: new FormControl(),
+      password: new FormControl()
+    });
+  }
 
   public openModal() {
     this.dialog.open(TestComponent, { data: { name: 'angular lessons' } });
+  }
+
+  public save() {
+    console.log(this.authForm);
   }
 }
