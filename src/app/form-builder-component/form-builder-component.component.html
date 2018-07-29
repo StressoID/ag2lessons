@@ -1,0 +1,9 @@
+<form [formGroup]="builderForm" (submit)="save()">
+  <mat-form-field>
+    <input matInput formControlName="login">
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput formControlName="password">
+  </mat-form-field>
+  <button mat-raised-button color="primary">Отправить</button>
+</form>

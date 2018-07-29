@@ -12,11 +12,13 @@ import {
   MatToolbarModule,
 } from '@angular/material';
 import {TestComponent} from './test/test.component';
+import { FormBuilderComponentComponent } from './form-builder-component/form-builder-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TestComponent
+    TestComponent,
+    FormBuilderComponentComponent
   ],
   imports: [
     BrowserModule,
