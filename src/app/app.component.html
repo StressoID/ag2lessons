@@ -16,9 +16,15 @@
   <form [formGroup]="authForm">
     <mat-form-field>
       <input matInput formControlName="login">
+      <mat-error *ngIf="authForm.controls.login.errors?.required">
+        Поле обязательно для заполнения
+      </mat-error>
     </mat-form-field>
     <mat-form-field>
       <input matInput formControlName="password">
+      <mat-error *ngIf="authForm.controls.password.errors?.minlength">
+        Пароль должен быть не менее {{authForm.controls.password.errors?.minlength.requiredLength}} символов
+      </mat-error>
     </mat-form-field>
     <button mat-raised-button color="primary" (click)="save()">Сохранить</button>
   </form>

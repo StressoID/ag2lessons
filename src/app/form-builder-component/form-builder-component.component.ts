@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { CustomValidators } from 'ng2-validation';
 
 @Component({
   selector: 'app-form-builder-component',
@@ -15,12 +16,14 @@ export class FormBuilderComponentComponent implements OnInit {
 
   ngOnInit() {
     this.builderForm = this.fb.group({
-      login: null,
-      password: null
+      login: [null, Validators.required],
+      password: [null, Validators.minLength(6)],
+      phone: [null, CustomValidators.phone('RU')]
     });
   }
 
   save() {
+    debugger;
     console.log(this.builderForm.value);
   }
 

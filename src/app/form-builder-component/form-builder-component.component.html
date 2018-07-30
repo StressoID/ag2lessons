@@ -1,9 +1,21 @@
 <form [formGroup]="builderForm" (submit)="save()">
   <mat-form-field>
     <input matInput formControlName="login">
+    <mat-error *ngIf="builderForm.controls.login.errors?.required">
+        Поле обязательно для заполнения
+      </mat-error>
   </mat-form-field>
   <mat-form-field>
     <input matInput formControlName="password">
+    <mat-error *ngIf="builderForm.controls.password.errors?.minlength">
+        Пароль должен быть не менее {{builderForm.controls.password.errors?.minlength.requiredLength}} символов
+      </mat-error>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput formControlName="phone">
+    <mat-error *ngIf="builderForm.controls.phone.errors?.phone">
+      Неправильный телефон
+    </mat-error>
   </mat-form-field>
   <button mat-raised-button color="primary">Отправить</button>
 </form>

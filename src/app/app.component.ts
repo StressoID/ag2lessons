@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material';
 import { TestComponent } from './test/test.component';
-import {FormControl, FormGroup} from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -22,8 +22,8 @@ export class AppComponent {
 
   constructor(public dialog: MatDialog) {
     this.authForm = new FormGroup({
-      login: new FormControl(),
-      password: new FormControl()
+      login: new FormControl(null, Validators.required),
+      password: new FormControl(null, Validators.minLength(6))
     });
   }
 
@@ -32,6 +32,7 @@ export class AppComponent {
   }
 
   public save() {
+    debugger;
     console.log(this.authForm);
   }
 }
